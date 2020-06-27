@@ -1,0 +1,58 @@
+# IPython log file
+
+runfile('/Users/alexanderalvarado/Documents/scp/interest_rate.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/sinerror.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/sinerror.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/sinerror.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/sinerror.py', wdir='/Users/alexanderalvarado/Documents/scp')
+sin(1)
+#[Out]# 0.8414709848078965
+runfile('/Users/alexanderalvarado/Documents/scp/formulas_shapes.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/untitled3.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/untitled3.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/untitled3.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/sin2_acceleration.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/untitled4.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/untitled4.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/a_pm_b_sqr.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/a_pm_b_sqr.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/a_pm_b_sqr.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/a_pm_b_sqr.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/untitled5.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/untitled6.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/kick.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/kick.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/kick.py', wdir='/Users/alexanderalvarado/Documents/scp')
+0.3*9.81/0.035
+#[Out]# 84.08571428571427
+0.3*9.81/0.04
+#[Out]# 73.575
+0.43*9.81/0.04
+#[Out]# 105.4575
+0.43*9.81
+#[Out]# 4.2183
+4.2183/0.35
+#[Out]# 12.052285714285716
+runfile('/Users/alexanderalvarado/Documents/scp/kick.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/kick.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/kick.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/kick.py', wdir='/Users/alexanderalvarado/Documents/scp')
+4.22/0.04
+#[Out]# 105.49999999999999
+4.22/0.035
+#[Out]# 120.57142857142856
+4.22/0.04
+#[Out]# 105.49999999999999
+runfile('/Users/alexanderalvarado/Documents/scp/kick.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/kick.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/kick.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/kick.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/kick.py', wdir='/Users/alexanderalvarado/Documents/scp')
+runfile('/Users/alexanderalvarado/Documents/scp/kick.py', wdir='/Users/alexanderalvarado/Documents/scp')
+mysession.log
+ipython
+a= inttype(a)#[Out]# type
+a=3type(a)#[Out]# int
+b=12.32type(B)type(b)#[Out]# float
+c='hello'type(c)#[Out]# str
+logoff
