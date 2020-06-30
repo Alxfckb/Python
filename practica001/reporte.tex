@@ -1,10 +1,106 @@
-\documentclass[10pt,a4paper]{article}
-\usepackage[latin1]{inputenc}
+\documentclass[11pt, spanish, letterpage]{article} % {{{
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper]{geometry}
+\geometry{verbose,tmargin=2cm,bmargin=2.5cm,lmargin=2cm,rmargin=2cm}
+%\pagestyle{plain}
+\setlength{\parskip}{\baselineskip}%espacio entre parrafos
+\setlength{\parindent}{0mm}
+\usepackage{graphicx}
+%\usepackage{setspace}
+\usepackage{tabulary}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
-\usepackage{graphicx}
+\usepackage{amsthm}
+\usepackage{physics}
+\usepackage{wrapfig}% para colocar figuras en diferentes posiciones
+\usepackage{bbold}
+
+\usepackage{fancybox}
+\usepackage{colortbl}
+\usepackage{amsbsy}
+\usepackage[draft,inline,nomargin]{fixme} \fxsetup{theme=color}
+
+\FXRegisterAuthor{ja}{aja}{\color{blue}JA}
+
+\usepackage[]{lineno}  \linenumbers
+\setlength\linenumbersep{3pt}
+
+
+\usepackage{lipsum}
+\usepackage{babel}
+\usepackage{multirow}
+\usepackage{array}
+
+
+
+\usepackage{hyperref}
+%\usepackage{biblatex}
+
+%---ejercicios, problemas -teoremas
+%---Problemas encerrados-Bonitos
+\usepackage[framemethod=tikz]{mdframed}
+\mdfsetup{skipabove=\topskip,skipbelow=\topskip}
+\newcounter{problem}[section]
+\newenvironment{problem}[1][]{%
+%\stepcounter{problem}%
+\ifstrempty{#1}%
+{\mdfsetup{%
+frametitle={%
+	\tikz[baseline=(current bounding box.east),outer sep=0pt]
+	\node[anchor=east,rectangle,fill=brown!50]
+{\strut Problema~\theproblem};}}
+
+}%
+{\mdfsetup{%
+frametitle={%
+	\tikz[baseline=(current bounding box.east),outer sep=0pt]
+	\node[anchor=east,rectangle,fill=brown!50]
+{\strut Problema ~\theproblem:~#1};}}%
+
+}%
+\mdfsetup{innertopmargin=5pt,linecolor=black!50,%
+	linewidth=2pt,topline=true,
+	frametitleaboveskip=\dimexpr-\ht\strutbox\relax,}
+	
+\begin{mdframed}[]\relax%
+}{\end{mdframed}}
+
+\newenvironment{solution}% environment name
+{\colorbox{gray}{~~\textbf{\textcolor{white}{Solución:}}~~}~~}%
+{}
+%-----end------------
+
+%\newtheorem{example}{Ejemplo}[chapter]
+%\newtheorem{ejercicio}{Ejercicio}[chapter]
+%%---
+\newcommand{\Ev}{\mathbf{E}}
+\newcommand{\rv}{\mathbf{r}}
+\newcommand{\ru}{\hat{\rv}}
+\usepackage{tabulary}
+%---paquetes para fisica
+\usepackage{physics}%facilita la escritura de operadores usados en fisica
+%-paquete para unidades en el sistema internacional
+\usepackage[load=prefix, load=abbr, load=physical]{siunitx}
+\newunit{\gram}{g }%gramos
+\newunit{\velocity}{ \metre / \Sec }%unidades de velocidad sistema internacional
+\newunit{\acceleration}{ \metre / \Sec^2 }%unidades de aceleracion sistema internacional
+\newunit{\entropy}{ \joule / \kelvin }%unidades de entropia sisteme internacional
+%--definiendo constantes fisicas en el SI
+\newcommand{\accgravity}{9.8 \metre / \Sec^2}
+%---diferencial inexacta
+\newcommand{\dbar}{\mathchar'26\mkern-12mu d}
+
+\oddsidemargin 0in
+\textwidth 6.5in
+\topmargin -0.5in
+\textheight 8.5in
+
+\title{Prueba}
 \begin{document}
+\maketitle
 Documento de prueba
-faldskjfasdñfldsajñfasjdñlfjsdañlk
+
+\janote{Pueden usar estos comentarios cuando sus companieros la caguen}
 \end{document}
