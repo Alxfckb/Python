@@ -1,0 +1,6 @@
+Fahrenheit degrees: 67.2   Celcius degrees: 19.6
+Fahrenheit degrees: 66.0   Celcius degrees: 18.9
+Fahrenheit degrees: 78.9   Celcius degrees: 26.1
+Fahrenheit degrees: 102.1   Celcius degrees: 38.9
+Fahrenheit degrees: 32.0   Celcius degrees: 0.0
+Fahrenheit degrees: 87.8   Celcius degrees: 31.0
