@@ -19,21 +19,21 @@ print('   t','  y(t)')
 
 #Generar los valores con un ciclo for
 for i in range(n+1):
-    dT=t*i                       #Generar cada instante de tiempo
-    y=v*dT-(1/2)*g*dT**2         #Calcular la posición
-    print('%5.1f %5.1f'  %(dT,y))    #Imprimir t vs y(t)
+    dT = t*i                            #Generar cada instante de tiempo (son n+1 tiempos para n intervalos)
+    y = v*dT - (1/2)* g * dT**2         #Calcular la posición
+    print('%5.1f %5.1f'  %(dT,y))       #Imprimir t vs y(t)
 
 print()
 print()
+
 #b) hacer lo mismo pero con un loop while
-
 #Reiniciamos i
 i=0
+dT=0
 print('   t','  y(t)')
 #dentro del while hacemos lo mismo que en el for
-while (dT<=2*v/g): 
-       y=v*dT-(1/2)*g*dT**2 
+while (dT<=2*v/g):
+       y=v*dT-(1/2)*g*dT**2
        print('%5.1f %5.1f'  %(dT,y))
        dT=t*i
        i=i+1
-

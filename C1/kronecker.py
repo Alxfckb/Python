@@ -1,7 +1,7 @@
 #Alex Alvarado
 #Queremos el producto de Kronecker entre dos matrices arbitrarias
 
-#Eligiendo dos matrices arbitrarias de 2x2 
+#Eligiendo dos matrices arbitrarias de 2x2
 m1=[[1,2],[3,4]]
 m2=[[0,5],[6,7]]
 
@@ -9,7 +9,7 @@ m2=[[0,5],[6,7]]
 kron=[ [ [[0,0],[0,0]],[[0,0],[0,0]] ] , [ [[0,0],[0,0]] , [[0,0],[0,0]]] ]
 
 #Definir el producto de kronecker
-                
+
 for i in range(2):
     for j in range(2):
         for k in range(2):

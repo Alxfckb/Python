@@ -4,7 +4,7 @@
 #a)
 
 
-def readdata(myfile):
+def read_data(myfile):
     
     '''
     Esta función lee datos de una hoja 'archivo.txt'
@@ -41,7 +41,7 @@ def readdata(myfile):
     return v0, T
 
 #Función test
-def test_readdata():
+def test_read_data():
     
     outfile=open('testdata.txt', 'w')
     outfile.write('v0: 69'+'\n')
@@ -51,12 +51,12 @@ def test_readdata():
     outfile.write('1 -1 2 -2 3 -3 4 -4')
     outfile.close()
     
-    print(readdata('testdata.txt'))   
+    print(read_data('testdata.txt'))   
                 
 #c)
-    
+def  write_n_sort():
     #
-    data=readdata('balldat.txt')        #Datos a extraer
+    data=read_data('balldat.txt')        #Datos a extraer
     g=9.8
     y=[]                                #Lista para almacenar valores de y
     t=[]                                #Lista que almacena valores de t en orden
